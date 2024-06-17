@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Souad">
+    <meta name="keyword" content="project in html">
+    <meta name="desciption" content="website static">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Food Shop</title>
+</head>
+
+<body>
+
+    <!-- header code -->
+
+    <header>
+        <h1>Food Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Hom</a></li>
+                <li><a href="/index.html">Our Menu</a></li>
+                <li><a href="/storehour.html">Store Hours</a></li>
+
+            </ul>
+        </nav>
+
+        <figure>
+            <img src="img/victoria-shes-UC0HZdUitWY-unsplash.jpg" alt="food image">
+            <figcaption>Food and beer</figcaption>
+        </figure>
+
+
+    </header>
+    <hr>
+
+    <main>
+        <section>
+
+
+            <h2>Our contact form </h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>
+                        Send us a message
+                    </legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="your name is required">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="your email is requied">
+                    </p>
+                    <p>
+                        <label for="message">Your message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="type your message here"></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit"> Send</button>
+                <button type="reset"> Reset</button>
+            </form>
+        </section>
+    </main>
+
+
+
+    <section>
+        <h3>Our location</h3>
+        <address>
+            We are located in 555 Food Shop <br>
+            New York city Mo 2311 <br>
+            phone : <a href="tel: +232 322 65 23">232 322 65 23</a>
+        </address>
+    </section>
+
+
+    <!--this link will just reload the page -->
+    <a href="#">Back to top</a>
+    <hr>
+
+
+    <footer>
+        <p>Copyright &copy; Food Shop</p>
+    </footer>
+
+</body>
+
+</html>
